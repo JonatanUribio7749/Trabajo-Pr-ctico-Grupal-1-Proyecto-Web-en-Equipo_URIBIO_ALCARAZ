@@ -2,8 +2,8 @@
 
 ## Enlace al proyecto desplegado
 
-- **Deploy en Vercel:** completar con el link final de Vercel.
-- **Repositorio de GitHub:** completar con el link final del repositorio.
+- **Deploy en Vercel:** https://tp1-uribio-alcaraz.vercel.app/
+- **Repositorio de GitHub:** https://github.com/JonatanUribio7749/Trabajo-Pr-ctico-Grupal-1-Proyecto-Web-en-Equipo_URIBIO_ALCARAZ.git
 
 ## Descripción del proyecto
 
@@ -207,27 +207,12 @@ La IA ayudó en:
 - El criterio fue preservar la privacidad de los integrantes y mantener una estética coherente con el sitio.
 - No se utilizaron fotos personales reales.
 
-## Capturas de pantalla
 
-Agregar aquí las capturas solicitadas una vez que el proyecto esté subido a GitHub y desplegado en Vercel.
+### SCREENSHOT
+/img
+ ├── avatar-jonatan.png
+ ├── avatar-marisol.png
+ ├── captura-home.png       
+ ├── captura-perfil.png     
+ ├── captura-bitacora.png   
 
-### Captura de portada
-
-Pendiente de agregar.
-
-### Captura de página individual
-
-Pendiente de agregar.
-
-### Captura de bitácora
-
-Pendiente de agregar.
-
-## Estado del proyecto
-
-Proyecto listo para ser subido a GitHub y publicado en Vercel. Antes de la entrega final se deben completar:
-
-- Link del repositorio.
-- Link del deploy en Vercel.
-- Links de GitHub de los integrantes.
-- Capturas de pantalla del sitio funcionando.
