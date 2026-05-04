@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TP1 - Proyecto Web en Equipo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Equipo <span>U&A</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="integrante-1.html">Jonatan</a></li>
+        <li><a href="integrante-2.html">Marisol</a></li>
+        <li><a href="bitacora.html">Bitácora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Trabajo Práctico Grupal 1</p>
+        <h1>Proyecto Web en Equipo</h1>
+        <p class="hero-text">
+          Sitio web de presentación grupal desarrollado por Jonatan Emanuel Uribio y Marisol Alcaraz.
+          La propuesta integra tarjetas personales, navegación interna, diseño responsive, bitácora de trabajo,
+          documentación técnica y funciones dinámicas con JavaScript.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#integrantes">Ver integrantes</a>
+          <a class="btn btn-secondary" href="bitacora.html">Ver bitácora</a>
+          <button class="btn btn-ghost" id="mensajeBtn">Mensaje del equipo</button>
+        </div>
+        <p class="dynamic-message" id="mensajeEquipo"></p>
+      </div>
+
+      <aside class="hero-panel reveal delay-1">
+        <span class="panel-number">TP1</span>
+        <h2>Objetivo del proyecto</h2>
+        <p>
+          Construir una web clara, ordenada y adaptable que presente al equipo, documente el proceso
+          y aplique buenas prácticas de HTML, CSS y JavaScript.
+        </p>
+        <div class="mini-stats">
+          <div><strong>4</strong><span>Páginas HTML</span></div>
+          <div><strong>3</strong><span>Breakpoints</span></div>
+          <div><strong>JS</strong><span>Interactividad</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section container" id="integrantes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Nuestro equipo</p>
+        <h2>Integrantes</h2>
+        <p>
+          Cada integrante cuenta con una página individual que funciona como tarjeta de presentación,
+          incluyendo datos personales, habilidades, intereses, películas y discos favoritos.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <article class="member-preview reveal">
+          <img src="img/avatar-jonatan.svg" alt="Avatar de Jonatan Emanuel Uribio">
+          <div class="member-content">
+            <p class="tag">Diseño + Desarrollo</p>
+            <h3>Jonatan Emanuel Uribio</h3>
+            <p>
+              Perfil orientado al desarrollo web, creatividad visual, edición digital,
+              marketing de contenidos y resolución práctica de problemas.
+            </p>
+            <a class="btn btn-small" href="integrante-1.html">Ver tarjeta</a>
+          </div>
+        </article>
+
+        <article class="member-preview reveal delay-1">
+          <img src="img/avatar-marisol.svg" alt="Avatar de Marisol Alcaraz">
+          <div class="member-content">
+            <p class="tag">Diseño + Datos</p>
+            <h3>Marisol Alcaraz</h3>
+            <p>
+              Perfil orientado al diseño en Figma, análisis de datos, modelado UML/DER
+              y organización visual de soluciones digitales.
+            </p>
+            <a class="btn btn-small" href="integrante-2.html">Ver tarjeta</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container features-grid">
+        <article class="feature-card reveal">
+          <h3>Diseño responsive</h3>
+          <p>El sitio contempla los puntos de corte solicitados: 400px, 900px y 1200px.</p>
+        </article>
+        <article class="feature-card reveal delay-1">
+          <h3>Navegación completa</h3>
+          <p>Todas las páginas incluyen menú y botones para evitar depender del botón atrás del navegador.</p>
+        </article>
+        <article class="feature-card reveal delay-2">
+          <h3>Documentación</h3>
+          <p>El README describe tecnologías, estructura, estilos, JavaScript, IA utilizada y despliegue.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>TP1 - Proyecto Web en Equipo | HTML, CSS, JavaScript y buenas prácticas</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

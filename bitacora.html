@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bitácora del Proyecto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Equipo <span>U&A</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="integrante-1.html">Jonatan</a></li>
+        <li><a href="integrante-2.html">Marisol</a></li>
+        <li><a href="bitacora.html">Bitácora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section container">
+    <div class="section-heading reveal">
+      <p class="eyebrow">Proceso de desarrollo</p>
+      <h1>Bitácora del Proyecto</h1>
+      <p>
+        Registro de decisiones, dificultades, cambios e implementación del TP1. Esta sección queda preparada
+        para ser ampliada en el TP2 con nuevas reflexiones y mejoras del proyecto.
+      </p>
+    </div>
+
+    <section class="timeline">
+      <article class="timeline-item reveal">
+        <span>1</span>
+        <h2>Planificación inicial</h2>
+        <p>
+          Se analizaron los requerimientos del trabajo práctico y se definió una estructura simple,
+          clara y funcional: una portada principal, dos páginas individuales, una bitácora y un archivo README.
+          También se decidió utilizar una estética moderna, con tarjetas, sombras suaves, bordes redondeados
+          y una paleta azul/violeta para mantener coherencia visual.
+        </p>
+      </article>
+
+      <article class="timeline-item reveal delay-1">
+        <span>2</span>
+        <h2>Decisiones de diseño</h2>
+        <p>
+          El equipo eligió un diseño responsive con navegación fija superior, botones visibles y tarjetas
+          individuales para facilitar la lectura. Se usaron tipografías de Google Fonts: Montserrat para títulos
+          e Inter para textos. Para preservar privacidad, se utilizaron avatares ilustrados en formato SVG en lugar
+          de fotografías personales reales.
+        </p>
+      </article>
+
+      <article class="timeline-item reveal delay-1">
+        <span>3</span>
+        <h2>Dificultades encontradas</h2>
+        <p>
+          Una dificultad fue asegurar que el menú y las tarjetas funcionaran correctamente en diferentes tamaños
+          de pantalla. Se resolvió mediante media queries específicas para 1200px, 900px y 400px. También se cuidó
+          que todas las páginas tengan navegación interna para no depender del botón “Atrás” del navegador.
+        </p>
+      </article>
+
+      <article class="timeline-item reveal delay-2">
+        <span>4</span>
+        <h2>Implementación con JavaScript</h2>
+        <p>
+          Se implementaron interacciones dinámicas: apertura/cierre del menú responsive, mensaje dinámico en la portada,
+          despliegue de intereses en cada tarjeta individual y cambio visual de color en la tarjeta de presentación.
+          Estas funciones están documentadas en el README del proyecto.
+        </p>
+      </article>
+
+      <article class="timeline-item reveal delay-2">
+        <span>5</span>
+        <h2>Cambios importantes</h2>
+        <p>
+          Se reforzó el contenido de las tarjetas, se personalizaron los perfiles de Jonatan Emanuel Uribio y Marisol Alcaraz,
+          se mejoró la estética general del sitio y se preparó la documentación para completar con los links de GitHub,
+          Vercel y capturas de pantalla solicitadas por la consigna.
+        </p>
+      </article>
+    </section>
+
+    <div class="bitacora-actions">
+      <a class="btn btn-primary" href="index.html">Volver al inicio</a>
+      <a class="btn btn-secondary" href="integrante-1.html">Ver Jonatan</a>
+      <a class="btn btn-secondary" href="integrante-2.html">Ver Marisol</a>
+    </div>
+
+    <aside class="readme-note reveal">
+      <h2>Nota para TP2</h2>
+      <p>
+        En la próxima entrega se deberá ampliar esta bitácora con nuevas decisiones, capturas, mejoras funcionales
+        y reflexiones sobre la evolución del proyecto.
+      </p>
+    </aside>
+  </main>
+
+  <footer class="footer"><p>TP1 - Bitácora del proyecto</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marisol Alcaraz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html">Equipo <span>U&A</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="integrante-1.html">Jonatan</a></li>
+        <li><a href="integrante-2.html">Marisol</a></li>
+        <li><a href="bitacora.html">Bitácora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="profile-page container">
+    <article class="profile-card reveal" id="profileCard">
+      <div class="profile-photo profile-photo-purple">
+        <img src="img/avatar-marisol.svg" alt="Avatar de Marisol Alcaraz">
+      </div>
+      <div class="profile-info">
+        <p class="eyebrow">Tarjeta de presentación</p>
+        <h1>Marisol Alcaraz</h1>
+        <p><strong>Ubicación:</strong> San Miguel de Tucumán, Argentina</p>
+        <p><strong>Edad:</strong> 32 años</p>
+        <p class="profile-summary">
+          Estudiante con perfil analítico y visual, orientada al diseño de interfaces,
+          análisis de datos, documentación técnica y modelado de sistemas mediante UML y DER.
+        </p>
+
+        <section class="info-block">
+          <h2>Habilidades</h2>
+          <ul class="chips-list">
+            <li>Diseño en Figma</li>
+            <li>Data Science</li>
+            <li>Modelado UML</li>
+            <li>Diseño de DER</li>
+            <li>Organización de información</li>
+            <li>Documentación funcional</li>
+          </ul>
+        </section>
+
+        <section class="info-block hidden-extra" id="extraInfo">
+          <h2>Intereses personales</h2>
+          <div class="two-columns">
+            <div>
+              <h3>Películas favoritas</h3>
+              <ul>
+                <li>El Diablo Viste a la Moda</li>
+                <li>Harry Potter</li>
+                <li>Avatar</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Discos favoritos</h3>
+              <ul>
+                <li>Una hora a Tokyo - Airbag</li>
+                <li>1989 - Taylor Swift</li>
+                <li>Plastic Hearts - Miley Cyrus</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="profile-actions">
+          <button class="btn btn-primary" id="toggleInfo">Mostrar/Ocultar intereses</button>
+          <button class="btn btn-secondary" id="changeColor">Cambiar color de tarjeta</button>
+          <a class="btn btn-small" href="integrante-1.html">Ver Jonatan</a>
+          <a class="btn btn-small" href="index.html">Volver al inicio</a>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer"><p>TP1 - Página individual de Marisol Alcaraz</p></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
